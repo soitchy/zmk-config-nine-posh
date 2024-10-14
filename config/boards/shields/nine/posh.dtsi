@@ -76,4 +76,5 @@ combo_r_bspc { \
 	layers = <COMBO_LAYERS>; \
 };
 
-TCOMBO(I,      &kp I,      &kp LS(I), &kp RPAR,   &kp C_PP,     TLI,         TRI)
+TCOMBO(E,      &kp E,      &kp LS(E), &kp RIGHT,  &kp END,      BLI,         BRI)
+TCOMBO(I,      &kp I,      &kp LS(I), &kp ENTER,  &kp TAB,      TLI,         TRI)
