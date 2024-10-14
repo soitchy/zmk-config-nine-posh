@@ -78,14 +78,14 @@ combo_r_bspc { \
 
 combo_l_shift { \
 	timeout-ms = <COMBO_TIMEOUT>; \
-	bindings = <&kp BSPC &kp SPACE>; \
+	bindings = <&sk LSFT>; \
 	key-positions = <LIT LOT>; \
 	layers = <COMBO_LAYERS>; \
 };
 
 combo_r_shift { \
 	timeout-ms = <COMBO_TIMEOUT>; \
-	bindings = <&kp BSPC &kp SPACE>; \
+	bindings = <&sk RSFT>; \
 	key-positions = <RIT ROT>; \
 	layers = <COMBO_LAYERS>; \
 };
