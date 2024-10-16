@@ -100,14 +100,14 @@ TCOMBO(S,      &kp S,      &kp LS(S), &kp COMMA,  &kp SQT,      TLM TLI,     TRM
 TCOMBO(H,      &kp H,      &kp LS(H), &kp DOT,    &kp DQT,      BLM BLI,     BRM BRI)
 TCOMBO(R,      &kp R,      &kp LS(R), &kp N0,     &kp F10,      TLM BLI,     TRM BRI)
 TCOMBO(D,      &kp D,      &kp LS(D), &kp N1,     &kp F1,       TLR TLM,     TRR TRM)
-TCOMBO(L,      &kp L,      &kp LS(L), &kp N2,     &kp F2,       BLM TLI,     BRM TRI)
+// TCOMBO(L,      &kp L,      &kp LS(L), &kp N2,     &kp F2,       BLM TLI,     BRM TRI)
 TCOMBO(C,      &kp C,      &kp LS(C), &kp N3,     &kp F3,       BLR BLI,     BRR BRI)
 TCOMBO(U,      &kp U,      &kp LS(U), &kp N4,     &kp F4,       BLR BLM,     BRR BRM)
 TCOMBO(M,      &kp M,      &kp LS(M), &kp N5,     &kp F5,       TLR BLI,     TRR BRI)
 TCOMBO(W,      &kp W,      &kp LS(W), &kp N6,     &kp F6,       BLR TLI,     BRR TRI)
 TCOMBO(F,      &kp F,      &kp LS(F), &kp N7,     &kp F7,       TLR TLI,     TRR TRI)
 TCOMBO(G,      &kp G,      &kp LS(G), &kp N8,     &kp F8,       BLR TLM,     BRR TRM)
-TCOMBO(Y,      &kp Y,      &kp LS(Y), &kp N9,     &kp F9,       BLR TLM TLI, BRR TRM TRI)
+// TCOMBO(Y,      &kp Y,      &kp LS(Y), &kp N9,     &kp F9,       BLR TLM TLI, BRR TRM TRI)
 TCOMBO(P,      &kp P,      &kp LS(P), &kp PLUS,   &kp EQUAL,    TLR TLM TLI, TRR TRM TRI)
 TCOMBO(B,      &kp B,      &kp LS(B), &kp MINUS,  &kp UNDER,    BLR BLM BLI, BRR BRM BRI)
 TCOMBO(V,      &kp V,      &kp LS(V), &kp SLASH,  &kp BSLH,     BLR TLM BLI, BRR TRM BRI)
@@ -123,6 +123,7 @@ TCOMBO(ALT,    &sk LALT,   &kp RBRC,  &kp LBRC,   &sk LS(LALT), TLM BLM,     TRM
 TCOMBO(CTL,    &sk LCTL,   &kp RPAR,  &kp LPAR,   &sk LS(LCTL), TLI BLI,     TRI BRI)
 TCOMBO(RALT,   &sk RALT,   &kp GT,    &kp LT,     &sk LS(RCTL), TLR BLR BLM, TRR BRR BRM)
 
-// experimental combos
+// custom combos deviate from base posh layout -- added for personal comfort
 TCOMBO(L,      &kp L,      &kp LS(L), &kp N2,     &kp F2,       LP BLI,     RP BRI)
 TCOMBO(Y,      &kp Y,      &kp LS(Y), &kp N9,     &kp F9,       LP TLI,     RP TRI)
+TCOMBO(SEMI,   &kp SEMI,   &kp LS(SEMI), &none,   &none,        LP BLR BLM, RP BRR BRM)
