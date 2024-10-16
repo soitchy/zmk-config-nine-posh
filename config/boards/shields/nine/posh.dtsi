@@ -122,3 +122,7 @@ TCOMBO(GUI,    &sk LGUI,   &kp RBKT,  &kp LBKT,   &sk LS(LGUI), TLR BLR,     TRR
 TCOMBO(ALT,    &sk LALT,   &kp RBRC,  &kp LBRC,   &sk LS(LALT), TLM BLM,     TRM BRM)
 TCOMBO(CTL,    &sk LCTL,   &kp RPAR,  &kp LPAR,   &sk LS(LCTL), TLI BLI,     TRI BRI)
 TCOMBO(RALT,   &sk RALT,   &kp GT,    &kp LT,     &sk LS(RCTL), TLR BLR BLM, TRR BRR BRM)
+
+// experimental combos
+TCOMBO(L,      &kp L,      &kp LS(L), &kp N2,     &kp F2,       LP BLI,     RP BRI)
+TCOMBO(Y,      &kp Y,      &kp LS(Y), &kp N9,     &kp F9,       LP TLI,     RP TRI)
